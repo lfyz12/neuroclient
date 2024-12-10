@@ -23,12 +23,10 @@ const NeuralNetworkPage = () => {
 
     return (
         <div className="relative bg-dark min-h-screen flex flex-col">
-            {/* Заголовок */}
             <header className="absolute top-6 left-6 text-primary text-4xl font-bold">
                 Neuro3D
             </header>
 
-            {/* Пространство для результата */}
             <div className="flex-grow flex justify-center items-center">
                 <div className="w-full max-w-3xl bg-gray-800 text-light p-8 rounded-lg shadow-md relative">
                     {isLoading ? (
@@ -41,7 +39,6 @@ const NeuralNetworkPage = () => {
                 </div>
             </div>
 
-            {/* Инпут для запроса */}
             <div className="p-4 bg-gray-900">
                 <div className="flex justify-center items-center">
                     <input
